@@ -77,7 +77,7 @@ export default function Home() {
       </header>
       <main className="flex flex-col items-center justify-between  h-full md:px-24 sm:p-0 lg:px-24">
         <div className="flex itens-center bg-red3  h-full px-5 md:px-20 sm:p-5 lg:px-20">
-          <div className="flex flex-col items-center gap-10 rounded-lg bg-gray-100 h-1/2 p-4 my-10 md:p-10 lg:p-10">
+          <div className="flex flex-col items-center gap-10 rounded-lg bg-gray-100 h-1/2 p-4 my-10 md:p-10 lg:p-10 text-black">
 
             <Image src={text[count].img} alt={""} className="rounded-md" />
             <p className="font-bold text-2xl text-center">{text[count].primeiro}</p>

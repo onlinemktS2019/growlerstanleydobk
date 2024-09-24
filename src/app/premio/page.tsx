@@ -45,7 +45,7 @@ export default function Home() {
       </header>
       <main className="flex flex-col items-center justify-between  h-full md:px-24 sm:p-0 lg:px-24">
         <div className="flex items-center justify-center bg-red3  h-full px-5 md:px-20 sm:p-5 lg:px-20 ">
-          <div className="flex flex-col gap-5 rounded-lg bg-gray-100 h-1/2  p-4 my-10 md:p-10 lg:p-10">
+          <div className="flex flex-col gap-5 rounded-lg bg-gray-100 h-1/2  p-4 my-10 md:p-10 lg:p-10 text-black">
             <figure className="flex flex-col w-full justify-center items-center">
               <Image src={premio} alt={""} className="rounded-lg" />
               <div className="flex flex-col gap-2 my-5 max-w-[75rem]">
